@@ -1,11 +1,7 @@
-@font-face {
-  font-family: "ChivoMono";
-  src: url(../public/ChivoMono-VariableFont_wght.ttf) 
-}
 
 /* this prevents the white at the bottom and top of the webpage */
 body { 
-  background-color: #E64054; 
+  background-color: #EA1212; 
 }
 
 /* html, body, body > div, .app {
@@ -14,14 +10,31 @@ body {
 } */
 
 .App {
-  background-color: #E64054;
   text-align: center;
-  font-family: 'ChivoMono';
+  font-family: 'Ek Mukta';
   font-variation-settings: "wght" 500;
 }
 
+button {
+  font-family : inherit;
+  font-size: 20px;
+}
+
+.glow-on-hover {
+  width: 280px;
+  height: 70px;
+  border: none;
+  outline: none;
+  color: black;
+  background: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
 .App-logo {
-  height: 50px;
+  height: 100px;
   pointer-events: none;
 }
 
@@ -60,7 +73,6 @@ body {
 
 
 .App-footer {
-  background-color: #E64054;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -98,7 +110,7 @@ h1 {
 }
 
 h2 {
-  font-size: 38px;
+  font-size: 60px;
   font-variation-settings: "wght" 600;
   margin-top: 0.5em;
   margin-bottom: 0em;
@@ -135,12 +147,12 @@ h5 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 400;
   color: white;
   opacity: 0.6;
-  margin-top: 0.5em;
+  margin-top: 0.2em;
 }
 
 h6 {

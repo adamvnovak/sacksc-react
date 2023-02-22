@@ -1,6 +1,4 @@
-import appstorebutton from './download-on-appstore-borderless.png';
-import logo from './pixelheart-white-filled.png';
-import newlogo from './peoplendots.png'
+import logo from './redhackysack.png';
 import './App.css';
 import { Link } from "react-router-dom";
 
@@ -10,33 +8,33 @@ function LandingPage() {
       <header className="App-header">
         <h4></h4>        <h4></h4>
         <h4></h4>
-
-        <img src={newlogo} alt="people n dots" className='App-logo'/>
+        
+        <img src={logo} alt="logo" className='App-logo'/>
         <h2>
-          sc dating club
+          Sack SC
         </h2>
-        <h6>
-          spontaneous connections
-        </h6>
+        <p>
+          The official hacky sack club at USC
+        </p>
 
         <h4></h4>
-        <Link to="/jointheclub">
-          <img src={appstorebutton} alt="appstorebutton" className='App-store-button' />
-        </Link>
-        {/* <a
-          href="https://apps.apple.com/app/apple-store/id1668220280"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={appstorebutton} alt="appstorebutton" className='App-store-button' />
-        </a> */}
+        <h4></h4>
+
+        <button
+            type="button"
+            className='glow-on-hover'
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href='https://forms.gle/WMxknWmWZ77gpjv16';
+              }}
+        > 
+        Spring 2023 Interest Form
+        </button>
       </header>
 
       <header className="App-footer">
-        <Link  to={{pathname: '/faq'}}>faq</Link>
-        <Link  to={{pathname: '/terms'}}>terms</Link>
-        <Link  to={{pathname: '/privacy'}}>privacy</Link>
-        <a href="mailto:leaveylabs@gmail.com" target="_blank" rel="noopener noreferrer" >contact</a>
+        {/* <Link  to={{pathname: '/faq'}}>learn more</Link>
+        <a href="mailto:leaveylabs@gmail.com" target="_blank" rel="noopener noreferrer" >join the groupme</a> */}
       </header>
     </div>
   );

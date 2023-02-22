@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/privacy" element={<PrivacyPage />} />
+          {/* <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/faq" element={<FaqPage />} />
-          <Route path="/jointheclub" element={<RedirectPage />} />
+          <Route path="/jointheclub" element={<RedirectPage />} /> */}
         </Routes>
       </Router>
     </div>
