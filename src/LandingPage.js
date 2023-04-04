@@ -11,25 +11,20 @@ function LandingPage() {
         
         <img src={logo} alt="logo" className='App-logo'/>
         <h2>
-          Sack SC
+          Happy Sack
         </h2>
+        <h3>
+        The good vibes hacky sack club at USC
+        </h3>
         <p>
-          The official hacky sack club at USC
+        Every Monday, 5pm at McCarthy Quad
+        </p>
+        <p>
+        Text Adam at (615) 975-4270 if you have any questions
         </p>
 
         <h4></h4>
         <h4></h4>
-
-        <button
-            type="button"
-            className='glow-on-hover'
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href='https://forms.gle/WMxknWmWZ77gpjv16';
-              }}
-        > 
-        Spring 2023 Interest Form
-        </button>
       </header>
 
       <header className="App-footer">
